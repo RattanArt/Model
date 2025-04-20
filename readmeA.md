@@ -39,3 +39,14 @@ sequenceDiagram
     F->>B: I smile for you.
     B->>F:F, you are cute.
 ```
+# CV
+
+```mermaid
+timeline
+    title School i have been completed
+    1996 : PC
+    1999 : PSU-HYI
+         : PSU-PN
+    2010 : CU
+    2016 : HD
+```
