@@ -17,6 +17,20 @@ Euler's identity is a special case of Euler's formula from complex
 analysis, which states that for any real number $ x $,
 $$ e^{ix} = \cos x + i \sin x. $$
 
+# Sample Table
+
+| Name       | Age | City      |
+|------------|-----|-----------|
+| Alice      | 30  | New York  |
+| Bob        | 25  | Los Angeles|
+| Charlie    | 35  | Chicago   |
+
+# List
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
 # Diagram
 
 - ex01
