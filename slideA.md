@@ -1,4 +1,4 @@
-# Demo slide
+# Demo
 This is a **Markdown** slide.
 ```html
 <div>Test
@@ -42,4 +42,3 @@ window.MathJax = {
 $$\int\limits_{t=1}^{\infty} f(t) dt = \dfrac{ \pi + \sqrt{\omega - \sin^2 \theta}}{1+\zeta} $$
 ---
 ![by-nc-sa](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png)
----
