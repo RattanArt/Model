@@ -1,10 +1,10 @@
 # Demo
 ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
-<div class="mermaid">
+```mermaid
 graph LR;
-A-->B; 
-B<-->D;
-</div> 
+	A-->B; 
+	B<-->D;
+``` 
 ---
 	
 ## Code
@@ -29,23 +29,14 @@ B<-->D;
 | B      | 25  | Los Angeles|
 | Ch     | 35  | Chicago   |
 ---
-## Code Example 1
+## Code
 ```js
 function greet(name) {
   return `Hello, ${name}!`;
 }
 ```
 ---
-## Code Example 2
-```js
-window.MathJax = { 
-	tex: { inlineMath: [['\\(', '\\)']], 
-	displayMath: [['$$', '$$']] }, 
-	svg: { fontCache: 'global' } 
-}; 
-```
----
-## Math Example
+## Math 
 - $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 - Block math: 
 $$\int\limits_{t=1}^{\infty} f(t) dt = \dfrac{ \pi + \sqrt{\omega - \sin^2 \theta}}{1+\zeta} $$
