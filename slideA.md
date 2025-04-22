@@ -4,7 +4,7 @@
 
 ## ex01
 
-```mermaid
+<div class="mermaid">
 sequenceDiagram
     A ->>B : Hello B, how are you?
     B-->>J: How about you J?
@@ -14,19 +14,19 @@ sequenceDiagram
 
     B-->A: Checking with J...
     A->J: Yes... J, how are you?
-```
+</div>
 ---
 
 ## ex02
 
-```mermaid
+<div class="mermaid">
 sequenceDiagram
     F->>B: I smile for you.
     B->>F:F, you are cute.
-```
+</div>
 - ex03
 
-```mermaid
+<div class="mermaid">
 timeline
     title School i have been completed โรงเรียนของหนู
     1996 : PC
@@ -34,12 +34,12 @@ timeline
          : PSU-PN
     2010 : CU
     2016 : HD
-```
+</div>
 ---
 
 ## ex 04
 
-```mermaid
+<div class="mermaid">
 sequenceDiagram
     A ->>B : Hello B, how are you?
     B-->>J: How about you J?
@@ -49,12 +49,12 @@ sequenceDiagram
 
     B-->A: Checking with J...
     A->J: Yes... J, how are you?
-```
+</div>
 ---
 
 ## ex 05
 
-```mermaid
+<div class="mermaid">
 gitGraph:
     commit "Ashish"
     branch newbranch
@@ -68,23 +68,23 @@ gitGraph:
     commit
     branch b2
     commit
-```
+</div>
 ---
 
 ## ex 06
 
-```mermaid
+<div class="mermaid">
 pie title What Voldemort doesn't have?
          "FRIENDS" : 2
          "FAMILY" : 3
          "NOSE" : 45
-```
+</div>
 ---
 
 ## ex 07
-	- [fontawesome v4 icons](https://fontawesome.com/v4/icons/)
+- [fontawesome v4 icons](https://fontawesome.com/v4/icons/)
 ---
-```mermaid
+<div class="mermaid">
 mindmap
   root)mindmap(
     Origins
@@ -107,7 +107,7 @@ mindmap
 	::icon(fa fa-spinner fa-spin)
       Pen and paper
       Mermaid
-```
+</div>
 ---
 	
 ## Code
