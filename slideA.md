@@ -1,48 +1,110 @@
 # Demo
 ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
-<div class="mermaid">
- sequenceDiagram
-	A->>B: I like you.
-	B->>C: C, you are cute.
-	C->>A: A, Are you OK?
-</div>	
+---
 
----
-## Diagram A
-<div class="mermaid">	
-graph LR
-	A --> E
-	E --> B
-<div>
----
-	
-## Diagram
+## ex01
+
 ```mermaid
-graph TD
-	A --> E
-	E --> B
-	B --> C
-	B --> D
-	D --> E
+sequenceDiagram
+    A ->>B : Hello B, how are you?
+    B-->>J: How about you J?
+    B--x A: I am OK thanks!
+    B-x J: I am fine thanks!
+    Note right of J: B thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+    B-->A: Checking with J...
+    A->J: Yes... J, how are you?
 ```
 ---
 
-## Mind map
+## ex02
+
+```mermaid
+sequenceDiagram
+    F->>B: I smile for you.
+    B->>F:F, you are cute.
+```
+- ex03
+
+```mermaid
+timeline
+    title School i have been completed โรงเรียนของหนู
+    1996 : PC
+    1999 : PSU-HYI
+         : PSU-PN
+    2010 : CU
+    2016 : HD
+```
+---
+
+## ex 04
+
+```mermaid
+sequenceDiagram
+    A ->>B : Hello B, how are you?
+    B-->>J: How about you J?
+    B--x A: I am OK thanks!
+    B-x J: I am fine thanks!
+    Note right of J: B thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+    B-->A: Checking with J...
+    A->J: Yes... J, how are you?
+```
+---
+
+## ex 05
+
+```mermaid
+gitGraph:
+    commit "Ashish"
+    branch newbranch
+    checkout newbranch
+    commit id:"1111"
+    commit tag:"test"
+    checkout main
+    commit type: HIGHLIGHT
+    commit
+    merge newbranch
+    commit
+    branch b2
+    commit
+```
+---
+
+## ex 06
+
+```mermaid
+pie title What Voldemort doesn't have?
+         "FRIENDS" : 2
+         "FAMILY" : 3
+         "NOSE" : 45
+```
+---
+
+## ex 07
+	- [fontawesome v4 icons](https://fontawesome.com/v4/icons/)
+---
 ```mermaid
 mindmap
   root)mindmap(
-    Origins	
-      Long history      
-      Popularisation	  
+    Origins
+	::icon(fa fa-refresh fa-spin)
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+	  ::icon(fa fa-car)
         British popular psychology author Tony Buzan
-    Research	
+    Research
+	::icon(fa fa-cog fa-spin)
       On effectiveness<br/>and features
       On Automatic creation
-        Uses		
+        Uses
+		::icon(fa fa-spinner fa-pulse)
             Creative techniques
             Strategic planning
             Argument mapping
-    Tools	
+    Tools
+	::icon(fa fa-spinner fa-spin)
       Pen and paper
       Mermaid
 ```
