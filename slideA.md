@@ -1,14 +1,20 @@
 # Demo
- ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
- 
+ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
+<div class="mermaid">
+ sequenceDiagram
+    F->>B: I smile for you.
+    B->>F:F, you are cute.
+</div>	
+
 ---
 
+## Diagram
 <div class="mermaid">
 graph TD
-    A[Start] --> B{Is it working?}
-    B -- Yes --> C[Great!]
-    B -- No --> D[Fix it]
-    D --> B
+    A[Start] --> B{Is it 1+1 = 0 ?}
+    B -- True --> C[Good!]
+    B -- False --> D[Fix it]
+    C --> D
 </div>
 
 ---
