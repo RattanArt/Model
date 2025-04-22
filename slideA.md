@@ -12,10 +12,10 @@
 ## Diagram
 <div class="mermaid">
 graph TD
-	A[Start] --> E[find 1+1]
-	E --> B{Is it 1+1 = 0 ?}
-	B -- True --> C[Good!]
-	B -- False --> D[Fix it]
+	A --> E
+	E --> B
+	B --> C
+	B --> D
 	D --> E
 </div>
 ---
@@ -24,24 +24,18 @@ graph TD
 <div class="mermaid">
 mindmap
   root)mindmap(
-    Origins
-	::icon(fa fa-refresh fa-spin)
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-	  ::icon(fa fa-car)
+    Origins	
+      Long history      
+      Popularisation	  
         British popular psychology author Tony Buzan
-    Research
-	::icon(fa fa-cog fa-spin)
+    Research	
       On effectiveness<br/>and features
       On Automatic creation
-        Uses
-		::icon(fa fa-spinner fa-pulse)
+        Uses		
             Creative techniques
             Strategic planning
             Argument mapping
-    Tools
-	::icon(fa fa-spinner fa-spin)
+    Tools	
       Pen and paper
       Mermaid
 <div>
