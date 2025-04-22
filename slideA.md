@@ -8,18 +8,18 @@ This is a **Markdown** slide.
 </div>
 ```
 ---
-## ✅ Lists
+## Lists
 - [✔] [symbl](https://symbl.cc/)
 - [☑] Item 1
 - [❌] Item 2
   - [❎] Subitem
-  - 
+  - [ ] test
 ----
 
 ## ✅ Tables ❎
 
-| ชื่อ        | อายุ | บ้านเกิด      |
-|------------|-----|-----------|
+| ชื่อ    | อายุ | บ้านเกิด    |
+|--------|-----|-----------|
 | A      | 30  | New York  |
 | B      | 25  | Los Angeles|
 | Ch     | 35  | Chicago   |
