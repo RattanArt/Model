@@ -1,5 +1,20 @@
 # Demo
 ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
+---
+### Mermaid theme
+
+```mermaid
+%%{init: { "theme": "forest" } }%%
+graph TD
+	A(Forest) --> B[/Another/]
+	A --> C[End]
+	  subgraph section
+	  B
+	  C
+	  end
+```
+---
+## More
 ```
 <div class = "mermaid">	
 	graph LR;
