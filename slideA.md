@@ -1,5 +1,5 @@
 # Demo
-This is a **Markdown** slide.
+ตัวอย่าง **Markdown** slide.
 ```html
 <div>Test
 	<p>How to</p>
