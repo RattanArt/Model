@@ -10,18 +10,18 @@
 ---
 
 ## Diagram
-<div class="mermaid">
+```mermaid
 graph TD
 	A --> E
 	E --> B
 	B --> C
 	B --> D
 	D --> E
-</div>
+```
 ---
 
 ## Mind map
-<div class="mermaid">
+```mermaid
 mindmap
   root)mindmap(
     Origins	
@@ -38,7 +38,7 @@ mindmap
     Tools	
       Pen and paper
       Mermaid
-<div>
+```
 ---
 	
 ## Code
