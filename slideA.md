@@ -1,10 +1,10 @@
 # Demo
 ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
-  <div class="mermaid">	
+```mermaid	
 	graph LR;
 		A-->B; 
 		B<-->D;   
-   </div>
+```
 ---
 	
 ## Code
