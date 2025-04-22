@@ -18,10 +18,36 @@ graph TD
 	B -- False --> D[Fix it]
 	D --> E
 </div>
-
 ---
 
-##
+## Mind map
+<div class="mermaid">
+mindmap
+  root)mindmap(
+    Origins
+	::icon(fa fa-refresh fa-spin)
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+	  ::icon(fa fa-car)
+        British popular psychology author Tony Buzan
+    Research
+	::icon(fa fa-cog fa-spin)
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+		::icon(fa fa-spinner fa-pulse)
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+	::icon(fa fa-spinner fa-spin)
+      Pen and paper
+      Mermaid
+<div>
+---
+	
+## Code
 ```html
 <div>Test
 	<p>How to</p>
