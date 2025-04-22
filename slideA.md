@@ -1,4 +1,7 @@
-# Flowchart Example
+# Demo
+ ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
+ 
+---
 
 <div class="mermaid">
 graph TD
@@ -10,8 +13,7 @@ graph TD
 
 ---
 
-## ตัวอย่าง 
-**Markdown** $a \in \mathbb{R}^+$.
+##
 ```html
 <div>Test
 	<p>How to</p>
