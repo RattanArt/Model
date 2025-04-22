@@ -1,4 +1,5 @@
 # Flowchart Example
+
 <div class="mermaid">
 graph TD
     A[Start] --> B{Is it working?}
@@ -6,7 +7,9 @@ graph TD
     B -- No --> D[Fix it]
     D --> B
 </div>
+
 ---
+
 ## ตัวอย่าง 
 **Markdown** $a \in \mathbb{R}^+$.
 ```html
