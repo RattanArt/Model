@@ -1,5 +1,14 @@
-# Demo
-ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
+# Flowchart Example
+<div class="mermaid">
+graph TD
+    A[Start] --> B{Is it working?}
+    B -- Yes --> C[Great!]
+    B -- No --> D[Fix it]
+    D --> B
+</div>
+---
+## ตัวอย่าง 
+**Markdown** $a \in \mathbb{R}^+$.
 ```html
 <div>Test
 	<p>How to</p>
