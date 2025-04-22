@@ -14,7 +14,7 @@ graph TD
     A[Start] --> B{Is it 1+1 = 0 ?}
     B -- True --> C[Good!]
     B -- False --> D[Fix it]
-    C --> D
+    D --> B
 </div>
 
 ---
