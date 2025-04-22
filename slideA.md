@@ -13,7 +13,8 @@ This is a **Markdown** slide.
 - [☑] Item 1
 - [❌] Item 2
   - [❎] Subitem
-  - [ 5 ] test
+  - [✅] test
+  - ทำใหม่
 ---
 
 ## ✅ Tables ❎
