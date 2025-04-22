@@ -1,20 +1,20 @@
 # Welcome 
 
 This is a **Markdown** slide.
-
 ```html
 <div>Test
 	<p>How to</p>
 </div>
 ```
 ---
+
 ## Lists
 - [✔] [symbl](https://symbl.cc/)
 - [☑] Item 1
 - [❌] Item 2
   - [❎] Subitem
   - [ ] test
-----
+---
 
 ## ✅ Tables ❎
 
@@ -23,6 +23,7 @@ This is a **Markdown** slide.
 | A      | 30  | New York  |
 | B      | 25  | Los Angeles|
 | Ch     | 35  | Chicago   |
+
 ---
 
 ## Code Example
