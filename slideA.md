@@ -11,10 +11,11 @@
 ## Diagram
 <div class="mermaid">
 graph TD
-    A[Start] --> B{Is it 1+1 = 0 ?}
-    B -- True --> C[Good!]
-    B -- False --> D[Fix it]
-    D --> B
+	A[Start] --> E[find 1+1]
+	E --> B{Is it 1+1 = 0 ?}
+	B -- True --> C[Good!]
+	B -- False --> D[Fix it]
+	D --> E
 </div>
 
 ---
