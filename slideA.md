@@ -1,9 +1,11 @@
 # Demo
 ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
-```mermaid	
+```
+<div class = "mermaid">	
 	graph LR;
 		A-->B; 
-		B<-->D;   
+		B<-->D;
+</div> 
 ```
 ---
 	
