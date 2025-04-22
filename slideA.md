@@ -2,8 +2,9 @@
 ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
 <div class="mermaid">
  sequenceDiagram
-    F->>B: I smile for you.
-    B->>F:F, you are cute.
+	A->>B: I like you.
+	B->>C: C, you are cute.
+	C->>A: A, Are you OK?
 </div>	
 
 ---
