@@ -1,4 +1,4 @@
-# Welcome 
+# Demo slide
 This is a **Markdown** slide.
 ```html
 <div>Test
@@ -37,7 +37,7 @@ window.MathJax = {
 ```
 ---
 ## Math Example
-- $x = -b \pm \dfrac{\sqrt{b^2 - 4ac}}{2a}$
+- $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 - Block math: 
 $$\int\limits_{t=1}^{\infty} f(t) dt = \dfrac{ \pi + \sqrt{\omega - \sin^2 \theta}}{1+\zeta} $$
 ---
