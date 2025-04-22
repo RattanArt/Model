@@ -75,9 +75,9 @@ $$2x^2 +7x+3$$
 
 - [5] ดึงตัวร่วม :  $x\left(2x+1\right)+3\left(2x+1\right)$
 
-- [6] แยกตัวประกอบ : $\left(x+3\right)\left(2x+1\right)$
+- [6] แยกตัวประกอบ : $\left(2x+1\right)\left(x+3\right)$
 
-- [7] จึงได้ว่า :  $x^2 +7x+3 = \left(x+3\right)\left(2x+1\right)$
+- [7] จึงได้ว่า :  $2x^2 +7x+3 = \left(2x+1\right)\left(x+3\right)$
 
 ---
 
