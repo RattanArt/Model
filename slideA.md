@@ -8,16 +8,14 @@
 </div>	
 
 ---
-## Diagram
-<div class="mermaid"><pre>	
-graph TD
+## Diagram A
+<div class="mermaid">	
+graph LR
 	A --> E
 	E --> B
-	B --> C
-	B --> D
-	D --> E
-</pre><div>
+<div>
 ---
+	
 ## Diagram
 ```mermaid
 graph TD
