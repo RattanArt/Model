@@ -1,5 +1,5 @@
 # Demo
-ตัวอย่าง **Markdown** $\a \in \mathbb{R}^+$.
+ตัวอย่าง **Markdown** $a \in \mathbb{R}^+$.
 ```html
 <div>Test
 	<p>How to</p>
